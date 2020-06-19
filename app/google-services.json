@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "952725841970",
+    "firebase_url": "https://cafein-d147c.firebaseio.com",
+    "project_id": "cafein-d147c",
+    "storage_bucket": "cafein-d147c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952725841970:android:99d00d761cf565ddbbb42b",
+        "android_client_info": {
+          "package_name": "com.example.cafein"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952725841970-9u8s1g3qbre2p6qmpquu9oc6arnnalrk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cafein",
+            "certificate_hash": "4ca3a6626276ad846d968e13d73dd38091b98528"
+          }
+        },
+        {
+          "client_id": "952725841970-i9mf4ekm7fij9kdiffc92mlccultm52l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFtG7GzFIVl2oA4vuOl5iq-7lRNk1EfRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952725841970-i9mf4ekm7fij9kdiffc92mlccultm52l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

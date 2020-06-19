@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/select_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/cafe_dangdang"
+            android:gravity="center"
+            android:text="포인트 충전 페이지"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mypage_division"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/my_toolbar"
+        android:background="@color/cardview_shadow_start_color"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/cafe24"
+            android:textSize="20sp"
+            android:text="현재 보유하고 있는 포인트" />
+
+        <TextView
+            android:id="@+id/currenPoint"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/round_edittext"
+            android:fontFamily="@font/cafe_dangdang"
+            android:textSize="20sp"
+
+            android:gravity="center"
+            android:hint="0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/cafe24"
+            android:text="충전하실 포인트를 입력해주세요"
+            android:textSize="20sp"
+            />
+
+
+        <EditText
+            android:id="@+id/addPoint"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_edittext"
+            android:fontFamily="@font/cafe_dangdang"
+            android:textSize="20sp"
+            android:hint="0"
+            android:inputType="number"
+            />
+
+        <Button
+            android:id="@+id/addPointButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@color/payButton"
+            android:fontFamily="@font/cafe_dangdang"
+            android:textSize="20sp"
+            android:text="충전"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

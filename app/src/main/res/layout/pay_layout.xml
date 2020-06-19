@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/menu_image"
+                android:layout_width="match_parent"
+                android:layout_height="190dp" />
+
+            <TextView
+                android:id="@+id/menu_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="10dp"
+                android:fontFamily="@font/cafe_dangdang"
+                android:textSize="25sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/icehot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginVertical="10dp"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/cafe_dangdang"
+                android:textColor="@android:color/black"
+                android:text="ICE / HOT"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/check_temp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/check_ice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:fontFamily="@font/cafe24_decobox"
+                    android:text="ICE"
+                    android:textColor="@color/appBackground"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+                <RadioButton
+                    android:id="@+id/check_hot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:fontFamily="@font/cafe24_decobox"
+                    android:text="HOT"
+                    android:textColor="@color/appBackground"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+            </RadioGroup>
+
+            <View
+                android:id="@+id/viewLine"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:visibility="gone"
+                android:background="@android:color/black" />
+
+            <TextView
+                android:id="@+id/size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginVertical="10dp"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/cafe_dangdang"
+                android:textColor="@android:color/black"
+                android:text="SIZE"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/check_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/check_tall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:fontFamily="@font/cafe24_decobox"
+                    android:text="TALL"
+                    android:textColor="@color/appBackground"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+                <RadioButton
+                    android:id="@+id/check_grande"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:fontFamily="@font/cafe24_decobox"
+                    android:text="GRANDE"
+                    android:textColor="@color/appBackground"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+                <RadioButton
+                    android:id="@+id/check_venti"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:fontFamily="@font/cafe24_decobox"
+                    android:text="VENTI"
+                    android:textColor="@color/appBackground"
+                    android:textSize="20sp"
+                    android:visibility="gone" />
+
+                <RadioButton
+                    android:id="@+id/etc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:fontFamily="@font/cafe24_decobox"
+                    android:text="PRICE"
+                    android:textColor="@color/appBackground"
+                    android:textSize="20sp"
+                    android:visibility="gone" />
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black" />
+
+
+            <FrameLayout
+                android:id="@+id/choose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/cafe_dangdang"
+                    android:text="수량"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/minus"
+                        android:layout_width="28dp"
+                        android:layout_height="27dp"
+                        android:background="@color/appBackground"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="-"
+                        android:textColor="@android:color/white"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/menu_amount"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:fontFamily="@font/cafe_dangdang"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@android:color/black"
+                        android:textSize="30sp" />
+
+                    <Button
+                        android:text="+"
+                        android:gravity ="center"
+                        android:textColor="@android:color/white"
+                        android:id="@+id/plus"
+                        android:layout_gravity="center"
+
+                        android:layout_width="28dp"
+                        android:layout_height="27dp"
+                        android:background="@color/appBackground" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="right">
+                <TextView
+                    android:textSize="20sp"
+                    android:text="총 가격은 "
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/price"
+                    android:textSize="20sp"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="원 입니다."/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/shoppingList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/shopping"
+                    android:text="장바구니에 넣기"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="2"
+                    android:background="@color/payButton"
+                    android:fontFamily="@font/cafe_dangdang"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+                <Button
+                    android:id="@+id/total"
+                    android:text="결제하기"
+                    android:layout_weight="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/payButton"
+                    android:fontFamily="@font/cafe_dangdang"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

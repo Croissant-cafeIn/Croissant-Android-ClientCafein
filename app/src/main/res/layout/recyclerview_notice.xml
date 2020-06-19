@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.cafein.store.ExpandableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/expand_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_button3"
+    android:layout_marginTop="10dp"
+    >
+
+
+
+    <RelativeLayout
+        android:id="@+id/question_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/question_textview"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/round_button3"
+            android:gravity="start"
+            android:padding="8dp"
+            android:text="Question"
+            android:fontFamily="@font/cafe_dangdang"
+            android:textColor="@color/appBackground"
+            android:layout_margin="5dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/date_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="45dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="200dp"
+            android:fontFamily="@font/cafe_dangdang"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="16dp"
+            android:text="date" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="360dp"
+            android:layout_marginEnd="10dp"
+            app:srcCompat="@drawable/down_arrow48" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/answer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_textview"
+        android:background="@drawable/round_button3"
+        android:padding="0dp">
+
+        <TextView
+            android:id="@+id/answer_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/round_button3"
+            android:text="Answer"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+
+</com.example.cafein.store.ExpandableLayout>

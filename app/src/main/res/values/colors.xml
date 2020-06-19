@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="editTextBackground1">#EBF7FF</color>
+    <color name="editTextBackground2">#EAEAEA</color>
+    <color name="line">#D4D4D4</color>
+    <color name="payButton">#645D5B</color>
+    <color name="appBackground">#584D49</color>
+    <color name="textBackground">#EAEAEA</color>
+    <color name="star">#664B00</color>
+</resources>
